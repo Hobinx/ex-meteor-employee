@@ -1,4 +1,5 @@
 import React from 'react';
+import { createContainer } from 'meteor/react-meteor-data';
 
 const EmployeeList = () => {
   return (
@@ -10,4 +11,6 @@ const EmployeeList = () => {
   );
 };
 
-export default EmployeeList;
+export default createContainer(() => {
+
+}, EmployeeList);
