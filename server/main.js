@@ -1,5 +1,5 @@
 import { Meteor } from 'meteor/meteor';
-import { Employees } from '../imports/collections/employee';
+import { Employees } from '../imports/collections/employees';
 import R from 'ramda';
 import { image, helpers } from 'faker';
 
